@@ -1,0 +1,110 @@
+.test-card {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    background-color: rgb(228, 144, 155);
+  
+    @media (max-width: 768px) {
+      margin-top: 30px;
+      flex-direction: column;
+      align-items: center;
+    }
+    .card2 {
+        width: 35%;
+        padding: 16px;
+        margin: 16px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(33, 32, 32, 0.1);
+    
+        @media (max-width: 768px) {
+          width: 80%;
+        }
+    }
+    .card-head2 {
+       
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: flex-start;
+        text-align: center;
+         
+        #img {
+            width: 500px;
+            height: 400px;
+            background-color: rgb(228, 144, 155);
+            border-radius: 10px;
+            @media (max-width: 989px) {
+                width: 100%;
+                height: 60%;
+              }
+            @media (max-width: 768px) {
+                width: 60%;
+                height: 50%;
+              }
+              @media (max-width: 1107px) {
+                width: 100%;
+                height: 100%;
+            
+          }
+        
+      }
+
+}
+}
+
+.test-card1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    background-color: rgb(228, 144, 155);
+  
+    @media (max-width: 768px) {
+      margin-top: 30px;
+      flex-direction: column;
+      align-items: center;
+    }
+    .card3 {
+        width: 35%;
+        padding: 16px;
+        margin: 16px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(36, 35, 35, 0.1);
+    
+        @media (max-width: 768px) {
+          width: 80%;
+        }
+    }
+    .card-head3 {
+       
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: flex-start;
+        color: white;
+        text-align: left;
+         
+        #img {
+            width: 500px;
+            height: 500px;
+            background-color: rgb(228, 144, 155);
+            border-radius: 10px;
+            @media (max-width: 989px) {
+                width: 100%;
+              }
+            @media (max-width: 768px) {
+                width: 60%;
+                height: 50%;
+              }
+              @media (max-width: 1107px) {
+                width: 100%;
+                height: 50%;
+            
+          }
+        
+      }
+
+}
+}
+
+h5{
+    font-size: 30px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
